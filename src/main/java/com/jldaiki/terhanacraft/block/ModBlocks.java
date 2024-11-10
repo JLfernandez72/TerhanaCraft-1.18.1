@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,7 +21,13 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Terhanacraft.MOD_ID);
 
-    public static final RegistryObject<Block> GLACIUS_ORE = registerBlock("glacius_ore_block",
+    public static final RegistryObject<Block> GLACIUS_ORE_BLOCK = registerBlock("glacius_ore_block",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).friction(0.98f).strength(3f).sound(SoundType.GLASS).requiresCorrectToolForDrops()), ModCreativeModeTab.TERHANACRAFT_TAB);
+
+    public static final RegistryObject<Block> RAW_GLACIUS_BLOCK = registerBlock("raw_glacius_block",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERHANACRAFT_TAB);
+
+    public static final RegistryObject<Block> GLACIUS_BLOCK = registerBlock("glacius_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TERHANACRAFT_TAB);
 
 

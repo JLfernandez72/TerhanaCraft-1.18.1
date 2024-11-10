@@ -1,6 +1,11 @@
 {
-  "item.terhanacraft.raw_glacius": "Raw Glacius`s Mind",
-  "block.terhanacraft.glacius_ore_block": "Glacius`s Mind Ore",
+  "item.terhanacraft.raw_glacius": "Raw Glacius` Mind",
+  "item.terhanacraft.glacius_ingot": "Glacius` Mind Ingot",
+  "item.terhanacraft.glacius_nugget": "Glacius` Mind Nugget",
+  "block.terhanacraft.glacius_ore_block": "Glacius` Mind Ore",
+  "block.terhanacraft.raw_glacius_block": "Raw Glacius` Mind Block",
+  "block.terhanacraft.glacius_block": "Glacius` Mind Block",
+
 
   "itemGroup.terhanacraft": "Terhanacraft"
 }

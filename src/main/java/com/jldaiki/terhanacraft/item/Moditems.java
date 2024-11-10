@@ -16,7 +16,13 @@ public class Moditems {
     public static final RegistryObject<Item> RAW_GLACIUS = ITEMS.register("raw_glacius",
             ( ) -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
 
-    //fuck you daiki for making me rename it after i had ALREADY DONE EVERYTHING
+    public static final RegistryObject<Item> GLACIUS_INGOT = ITEMS.register("glacius_ingot",
+            ( ) -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
+
+    public static final RegistryObject<Item> GLACIUS_NUGGET = ITEMS.register("glacius_nugget",
+            ( ) -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
+
+
 
 
 

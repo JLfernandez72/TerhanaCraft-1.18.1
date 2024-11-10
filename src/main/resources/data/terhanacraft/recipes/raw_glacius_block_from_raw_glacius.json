@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "terhanacraft:raw_glacius"
+    }
+  },
+  "result": {
+    "item": "terhanacraft:raw_glacius_block"
+  }
+}

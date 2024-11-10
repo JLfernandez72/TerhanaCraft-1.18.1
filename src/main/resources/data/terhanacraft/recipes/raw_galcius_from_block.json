@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "terhanacraft:raw_glacius_block"
+    }
+  ],
+  "result": {
+    "item": "terhanacraft:raw_glacius",
+    "count": 9
+  }
+}

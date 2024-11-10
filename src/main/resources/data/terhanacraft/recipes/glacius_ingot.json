@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_ingot",
+  "ingredients": [
+    {
+      "item": "terhanacraft:glacius_block"
+    }
+  ],
+  "result": {
+    "item": "terhanacraft:glacius_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "terhanacraft:glacius_nugget"
+    }
+  },
+  "result": {
+    "item": "terhanacraft:glacius_ingot"
+  }
+}

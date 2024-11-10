@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terhanacraft:glacius_ingot"
+    }
+  ],
+  "result": {
+    "item": "terhanacraft:glacius_nugget",
+    "count": 9
+  }
+}
