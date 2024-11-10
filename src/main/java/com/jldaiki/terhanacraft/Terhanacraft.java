@@ -1,9 +1,12 @@
 package com.jldaiki.terhanacraft;
 
+import com.jldaiki.terhanacraft.block.ModBlocks;
+import com.jldaiki.terhanacraft.item.Moditems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -27,7 +30,12 @@ public class Terhanacraft
 
     public Terhanacraft() {
         // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        Moditems.register(eventBus);
+        ModBlocks.register(eventBus);
+
+        eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
 
         // Register ourselves for server and other game events we are interested in
