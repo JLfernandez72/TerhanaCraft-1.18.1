@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
+
     "terhanacraft:glacius_ore_block",
     "terhanacraft:glacius_block",
     "terhanacraft:raw_glacius_block"
+
   ]
 }
