@@ -26,19 +26,19 @@ public class Moditems {
             ( ) -> new Item(new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
     //Glacius` Mind Tools
     public static final RegistryObject<Item> GLACIUS_SWORD = ITEMS.register("glacius_sword",
-            ( ) -> new SlownessSwordItem(ModTiers.GLACIUS,5,0.5f,
+            ( ) -> new SlownessSwordItem(ModTiers.GLACIUS,5,-2.4f,
                     new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
 
     public static final RegistryObject<Item> GLACIUS_AXE = ITEMS.register("glacius_axe",
-            ( ) -> new AxeItem(ModTiers.GLACIUS,6,0.5f,
+            ( ) -> new AxeItem(ModTiers.GLACIUS,6,-3f,
                     new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
 
     public static final RegistryObject<Item> GLACIUS_PICKAXE = ITEMS.register("glacius_pickaxe",
-            ( ) -> new PickaxeItem(ModTiers.GLACIUS,2,0.1f,
+            ( ) -> new PickaxeItem(ModTiers.GLACIUS,2,-2f,
                     new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
 
     public static final RegistryObject<Item> GLACIUS_SHOVEL = ITEMS.register("glacius_shovel",
-            ( ) -> new ShovelItem(ModTiers.GLACIUS,2,0.1f,
+            ( ) -> new ShovelItem(ModTiers.GLACIUS,2,-2f,
                     new Item.Properties().tab(ModCreativeModeTab.TERHANACRAFT_TAB)));
 
     public static final RegistryObject<Item> GLACIUS_HOE = ITEMS.register("glacius_hoe",
